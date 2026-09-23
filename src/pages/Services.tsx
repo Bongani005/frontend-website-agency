@@ -1,0 +1,5 @@
+import { BookingForm } from '../components/BookingForm'
+
+export function Services() {
+  return <main className="page-shell"><div className="page-heading"><p className="eyebrow">Work with us</p><h1>Services built around your next chapter.</h1></div><div className="service-list"><article><span>01</span><h2>Brand strategy</h2><p>Positioning, naming, identity systems, and the story that keeps your team aligned.</p></article><article><span>02</span><h2>Digital experiences</h2><p>Websites and product experiences that make complex ideas feel simple and useful.</p></article><article><span>03</span><h2>Campaigns</h2><p>Distinctive creative direction and content that gives your launch something to say.</p></article></div><section className="booking-section"><div><p className="eyebrow">Plan your stay</p><h2>Tell us what you need.</h2></div><BookingForm /></section></main>
+}
