@@ -1,11 +1,11 @@
 :root {
-  --navy: #0b1f3a;
-  --gold: #d4a847;
-  --cream: #f7f1e3;
-  --gold-light: #ead59d;
+  --black: #0b0b0b;
+  --gold: #d9a928;
+  --cream: #fffaf0;
+  --gold-light: #f0d47a;
   font-family: Georgia, "Times New Roman", serif;
-  color: var(--navy);
-  background: var(--cream);
+  color: var(--black);
+  background: var(--black);
   font-synthesis: none;
 }
 * {
@@ -34,8 +34,10 @@ a {
   z-index: 10;
 }
 .brand {
+  background: var(--gold);
   display: block;
   line-height: 0;
+  padding: 12px;
 }
 .brand img {
   display: block;
@@ -63,7 +65,7 @@ nav a:hover {
 }
 .hero {
   align-items: center;
-  background: var(--navy);
+  background: var(--black);
   color: var(--cream);
   display: flex;
   justify-content: space-between;
@@ -128,10 +130,10 @@ p {
 }
 .button--light {
   background: var(--gold);
-  color: var(--navy);
+  color: var(--black);
 }
 .button--dark {
-  background: var(--navy);
+  background: var(--black);
   color: var(--cream);
   cursor: pointer;
 }
@@ -159,7 +161,7 @@ p {
   max-width: 420px;
 }
 .service-strip {
-  background: var(--navy);
+  background: var(--black);
   color: var(--cream);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -280,7 +282,7 @@ textarea {
 }
 input:focus,
 textarea:focus {
-  border-color: #b54b2e;
+  border-color: var(--gold);
 }
 .form-status {
   font-family: Arial, sans-serif;
@@ -346,7 +348,7 @@ textarea:focus {
   padding: 30px 20px 30px 0;
 }
 .contact-links span {
-  color: #b54b2e;
+  color: var(--gold);
   display: block;
   font-family: Arial, sans-serif;
   font-size: 0.7rem;
@@ -356,7 +358,7 @@ textarea:focus {
 }
 .site-footer {
   align-items: center;
-  background: var(--navy);
+  background: var(--black);
   color: var(--cream);
   display: flex;
   font-family: Arial, sans-serif;
