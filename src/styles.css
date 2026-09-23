@@ -1,11 +1,12 @@
 :root {
   --black: #0b0b0b;
+  --white: #ffffff;
   --gold: #d9a928;
   --cream: #fffaf0;
   --gold-light: #f0d47a;
   font-family: Georgia, "Times New Roman", serif;
   color: var(--black);
-  background: var(--black);
+  background: var(--cream);
   font-synthesis: none;
 }
 * {
@@ -66,7 +67,7 @@ nav a:hover {
 .hero {
   align-items: center;
   background: var(--black);
-  color: var(--cream);
+  color: var(--white);
   display: flex;
   justify-content: space-between;
   margin-left: 230px;
@@ -134,7 +135,7 @@ p {
 }
 .button--dark {
   background: var(--black);
-  color: var(--cream);
+  color: var(--white);
   cursor: pointer;
 }
 .button:disabled {
@@ -162,7 +163,7 @@ p {
 }
 .service-strip {
   background: var(--black);
-  color: var(--cream);
+  color: var(--white);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-left: 230px;
@@ -359,7 +360,7 @@ textarea:focus {
 .site-footer {
   align-items: center;
   background: var(--black);
-  color: var(--cream);
+  color: var(--white);
   display: flex;
   font-family: Arial, sans-serif;
   font-size: 0.7rem;
